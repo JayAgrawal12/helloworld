@@ -9,9 +9,8 @@
 //import a from './exporter';
 //console.log(a);
 
-//import {a, employee, myFunc} from './exporter';
-import * as exporter from './exporter'
+import {a, employee, myFunc} from './exporter';
 let obj = new employee();
 obj.myMethod();
-exporter.myFunc();
-console.log(exporter.a)
+myFunc();
+console.log(a)
